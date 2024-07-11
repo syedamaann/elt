@@ -23,7 +23,7 @@ services:
     
   elt:
     build:
-      context: .
+      context: ./elt_script
       dockerfile: Dockerfile
     depends_on:
       - source_postgres
